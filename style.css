@@ -1,0 +1,42 @@
+html {
+  background-color: darkslategrey;
+}
+.header {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+/* 
+Change the background to white and black border
+When Hovering: 
+    1.) Change the curosr to look like a finger
+    2.) Change the background to black and the border to white
+    3.) Make the hover animation slow ~0.8 sec(s) 
+*/
+
+.number {
+  display: flex;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 25px;
+  background-color: white;
+}
+.number:hover {
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.8s ease;
+}
+.flex_practice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
